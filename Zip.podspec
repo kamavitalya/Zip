@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Zip"
-  s.version          = "2.1.2"
+  s.version          = "2.1.3-static"
   s.summary          = "Zip and unzip files in Swift."
   s.swift_version    = "5.3"
   s.swift_versions   = ["4.2", "5.0", "5.1", "5.3"]
@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
                       A Swift framework for zipping and unzipping files. Simple and quick to use. Built on top of minizip.
                      DESC
 
-  s.homepage         = "https://github.com/marmelroy/Zip"
+  s.homepage         = "https://github.com/kamavitalya/Zip.git"
   s.license          = 'MIT'
   s.author           = { "Roy Marmelstein" => "marmelroy@gmail.com" }
-  s.source           = { :git => "https://github.com/marmelroy/Zip.git", :tag => s.version.to_s}
+  s.source           = { :git => "https://github.com/kamavitalya/Zip.git", :tag => s.version.to_s}
   s.social_media_url   = "http://twitter.com/marmelroy"
 
   s.ios.deployment_target = '9.0'
