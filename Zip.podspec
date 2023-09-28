@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/kamavitalya/Zip"
   s.license          = 'MIT'
   s.author           = { "Roy Marmelstein" => "marmelroy@gmail.com" }
-  s.source           = { :http => "https://github.com/kamavitalya/Zip/archive/refs/tags/2.1.3-static.tar.gz" }
+  s.source           = { :git => "https://github.com/kamavitalya/Zip.git", :tag => s.version.to_s }
   s.social_media_url   = "http://twitter.com/marmelroy"
 
   s.ios.deployment_target = '9.0'
