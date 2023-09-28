@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/kamavitalya/Zip.git"
   s.license          = 'MIT'
   s.author           = { "Roy Marmelstein" => "marmelroy@gmail.com" }
-  s.source           = { :git => "https://github.com/kamavitalya/Zip.git", :tag => s.version.to_s}
+  s.source           = { :http => "https://nexus.tcsbank.ru/repository/cocoapods-cdn-proxy/pods/Zip/2.1.2/2.1.2.tar.gz" }
   s.social_media_url   = "http://twitter.com/marmelroy"
 
   s.ios.deployment_target = '9.0'

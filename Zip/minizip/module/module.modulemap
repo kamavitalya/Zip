@@ -1,6 +1,5 @@
 module Minizip [system][extern_c] {
-    umbrella header "../include/Minizip.h"
-    export *
-    module * { export * }
+    header "../include/Minizip.h"
     link "z"
+    export *
 }
